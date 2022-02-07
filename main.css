@@ -83,7 +83,7 @@ button{
     padding: 12px 10px;
     outline: none;
     color: #735D78;
-    background: linear-gradient(to right, #f7c36f, #D99830);
+    background: linear-gradient(to right, #ecb050, #D99830);
     border-radius: 7px;
     cursor: pointer;
     transition: 0.5s;
@@ -112,4 +112,10 @@ button:hover{
     width: 70%;
     float: right;
     height: auto;
+}
+.shape{
+    position:absolute;
+    width: 65%;
+    left: 35%;
+    z-index: -1;
 }
