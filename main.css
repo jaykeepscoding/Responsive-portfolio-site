@@ -1,6 +1,5 @@
 .container{
     width: 100%;
-    min-height: 100vh;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -32,10 +31,10 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color:#1985A1;
+    color:#9ddfec;
 }
 nav ul li a:hover{
-    color: brown;
+    color: #DEA54B;
 }
 .iconbar{
     width: 5%;
@@ -55,7 +54,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 0;
+    margin: 10px 0;
 }
 .info-1{
     flex-basis: 80%;
@@ -69,7 +68,7 @@ nav ul li a:hover{
 }
 .info-1 h2{
     font-size: 48px;
-    color:#91b7c0;
+    color:#b9dde9;
 }
 .info-1 h3{
     font-size: 30px;
@@ -77,12 +76,15 @@ nav ul li a:hover{
     font-weight: 100;
     margin-bottom: -25px;
 }
+.info-1 a{
+    text-decoration: none;
+}
 button{
     width: 140px;
     border: 0;
     padding: 12px 10px;
     outline: none;
-    color: #735D78;
+    color: #080808;
     background: linear-gradient(to right, #ecb050, #D99830);
     border-radius: 7px;
     cursor: pointer;
@@ -118,4 +120,63 @@ button:hover{
     width: 65%;
     left: 35%;
     z-index: -1;
+}
+#about{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 15%;
+    font-size: 30px;
+    color: #DEA54B;
+    
+}
+#about p{
+    text-align: justify;
+    margin-right: 60%;
+    color: #b9dde9;
+    font-size:20px;
+}
+#experience {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 15%;
+    font-size: 30px;
+    color: #DEA54B;
+}
+#experience p{
+    text-align: left;
+    font-size:20px;
+}
+#projects{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 15%;
+    font-size: 30px;
+    color: #DEA54B;
+}
+#projects p{
+    font-size:20px;
+}
+#contact{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 15%;
+    font-size: 30px;
+    text-align: center;
+    color: #DEA54B;
+}
+#contact p{
+    font-size:20px;
+}
+#contact ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin-right: 30px;
+    font-family:sans-serif;
+}
+#contact ul li a{
+    text-decoration: none;
+    color:#1985A1;
+}
+#contact ul li a:hover{
+    color: #DEA54B;
 }
