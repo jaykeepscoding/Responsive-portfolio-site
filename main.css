@@ -181,6 +181,7 @@ button:hover{
 #projects ul li{
     color: #b9dde9;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 #projects ul li a{
     text-decoration: none;
