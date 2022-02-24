@@ -18,6 +18,7 @@
 #menu-icon{
     width: 25px;
     cursor: pointer;
+    display: none;
 }
 nav{
     flex: 1;
@@ -239,6 +240,9 @@ button:hover{
     #menuList{
         overflow: hidden;
         transition: 0.7s;
+    }
+    #menu-icon{
+        display: block;
     }
     .logo{
         width: 60px;
