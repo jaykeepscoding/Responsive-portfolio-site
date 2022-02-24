@@ -15,9 +15,9 @@
     cursor: pointer;
     margin: 30px 0;
 }
-.menu-icon{
+#menu-icon{
     width: 25px;
-    cursor:pointer
+    cursor: pointer;
 }
 nav{
     flex: 1;
@@ -84,18 +84,21 @@ nav ul li a:hover{
     text-decoration: none;
 }
 button{
-    width: 140px;
+    width: 100px;
     border: 0;
-    padding: 12px 10px;
+    padding: 7px 5px;
     outline: none;
     color: #080808;
     background: linear-gradient(to right, #ecb050, #D99830);
     border-radius: 7px;
     cursor: pointer;
     transition: 0.5s;
+    font-size: 15px;
+    font-family: 'Cinzel','serif';
+    font-weight: bold;
 }
 button:hover{
-    width: 160px;
+    width: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -127,11 +130,14 @@ button:hover{
 }
 #about{
     position: relative;
-    margin-right: 50px;
     margin-top: 15%;
     font-size: 25px;
-    text-align: right;
     color: #DEA54B;
+}
+#about h2{
+    text-align: center;
+    margin-left: 60%;
+    margin-bottom: -15px;
 }
 .float-motion{
     border-radius: 30px;
@@ -158,18 +164,18 @@ button:hover{
     color: #1985A1;
 }
 #experience h5{
-    font-size: 18px;
+    font-size: 17px;
     color: #1985A1;
     margin-top: -15px;
 }
 #experience ul li{
     color: #b9dde9;
-    font-size: 18px;
+    font-size: 17px;
 }
 #projects{
     position: relative;
     margin-left: 50px;
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: 25px;
     color: #DEA54B;
 }
@@ -213,4 +219,118 @@ button:hover{
 }
 #contact h6{
     font-size: 15px;
+}
+
+@media (max-width: 900px){
+    nav ul{
+        width: 100%;
+        position: absolute;
+        max-height: 0px;
+        top: 80px;
+        right: 0;
+        z-index: 2;
+        display: block;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.7s;
+    }
+    .logo{
+        width: 60px;
+        cursor: pointer;
+        margin: 30px 0;
+    }
+    .row{
+        display:inline;
+        justify-content: space-between;
+        align-items: center;
+    }
+    button{
+        width: 80px;
+        padding: 7px 5px;
+        font-size: 10px;
+        font-family: 'Cinzel','serif';
+        font-weight: bold;
+    }
+    .info-1 h1{
+        font-size: 40px;
+        display: inline-block;
+        text-align: left;
+        margin-bottom: -30px;
+    }
+    .info-1 h2{
+        display: inline-block;
+        text-align: left;
+        font-size: 30px;
+    }
+    .info-1 h3{
+        display: inline-block;
+        text-align: left;
+        font-size: 20px;
+    }
+    .info-2{
+        margin-top: 15%;
+        margin-left: -20px;
+    }
+    .float-motion{   
+        display: none;
+    }
+    #about{
+        font-size: 20px;
+    }
+    #about h2{
+        margin-left: 0%;
+        display: inline;
+        text-align: center;   
+    }
+    #about p{
+        margin: 0%;
+        text-align: left;
+        display: inline;
+        font-size:12px;
+    }
+    #experience {
+        position: relative;
+        margin-left: 0%;
+        font-size: 20px;
+    }
+    #experience h4{
+        font-size: 15px;
+    }
+    #experience h5{
+        font-size: 12px;
+    }
+    #experience ul li{
+        font-size: 12px;
+    }
+    #projects {
+        position: relative;
+        margin-left: 0%;
+        font-size: 20px;
+    }
+    #projects h4{
+        font-size: 15px;
+    }
+    #projects ul li{
+        font-size: 12px;
+    }
+    #contact{
+        position: relative;
+        margin-left: 0%;
+        font-size: 20px;
+    }
+    #contact p{
+        font-size: 12px;
+    }
+    #contact ul li{
+        font-size: 20px;
+    }
+    #contact h6{
+        font-size: 10px;
+    }
 }
