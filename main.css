@@ -261,6 +261,12 @@ button:hover{
         font-family: 'Cinzel','serif';
         font-weight: bold;
     }
+    button:hover{
+        width: 80px;
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+    }
     .info-1 h1{
         font-size: 40px;
         display: inline-block;
