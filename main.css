@@ -140,6 +140,9 @@ button:hover{
     margin-left: 60%;
     margin-bottom: -15px;
 }
+#about h5{
+    margin-bottom: -15px;
+}
 .float-motion{
     border-radius: 30px;
     margin-top: 7%;
@@ -153,10 +156,21 @@ button:hover{
     color: #b9dde9;
     font-size:17px;
 }
+#about ul li{
+    list-style-type: none;
+    color: #b9dde9;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#about ul li h4{
+    color: #DEA54B;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
 #experience {
     position: relative;
     margin-left: 50px;
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: 25px;
     color: #DEA54B;
 }
@@ -303,6 +317,12 @@ button:hover{
         text-align: left;
         display: inline;
         font-size:12px;
+    }
+    #about ul li{
+        font-size: 12px;
+    }
+    #about ul li h4{
+        font-size: 12px;
     }
     #experience {
         position: relative;
