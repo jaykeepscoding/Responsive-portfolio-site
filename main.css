@@ -9,11 +9,12 @@
 .navbar{width: 100%;
     display: flex;
     align-items: center;
-    }
+}
 .logo{
-    width: 100px;
-    cursor: pointer;
-    margin: 30px 0;
+    width: 80px;
+    margin: 30px;
+    margin-bottom: -10px;
+    margin-top: 10px;
 }
 #menu-icon{
     width: 25px;
@@ -41,12 +42,13 @@ nav ul li a:hover{
 .iconbar{
     width: 5%;
 }
+.iconbar ul{
+    display:flex;
+    align-items: center;
+}
 .iconbar ul li{
     list-style-type: none;
-    display: inline-block;
-    left: -150px;
-    top: 1px;
-    padding: 30%;
+    margin-right: 20px;
 }
 .iconbar ul li a:hover{
     color: #DEA54B;
@@ -60,6 +62,14 @@ nav ul li a:hover{
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
+}
+.container2{
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 .info-1{
     flex-basis: 80%;
@@ -131,7 +141,7 @@ button:hover{
 }
 #about{
     position: relative;
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: 25px;
     color: #DEA54B;
 }
@@ -170,7 +180,7 @@ button:hover{
 #experience {
     position: relative;
     margin-left: 50px;
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 25px;
     color: #DEA54B;
 }
@@ -190,18 +200,18 @@ button:hover{
 #projects{
     position: relative;
     margin-left: 50px;
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 25px;
     color: #DEA54B;
 }
 #projects h4{
-    font-size: 25px;
+    font-size: 20px;
     color: #1985A1;
     margin-bottom: -15px;
 }
 #projects ul li{
     color: #b9dde9;
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 10px;
 }
 #projects ul li a{
@@ -237,6 +247,10 @@ button:hover{
 }
 
 @media (max-width: 900px){
+    .container{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
     nav ul{
         width: 100%;
         position: absolute;
@@ -260,8 +274,16 @@ button:hover{
     }
     .logo{
         width: 60px;
-        cursor: pointer;
-        margin: 30px 0;
+        margin: 30px;
+        margin-bottom: -10px;
+        margin-top: 10px;
+    }
+    .iconbar ul{
+        display:flex;
+        align-items: center;
+    }
+    .iconbar ul li{
+        margin-right: 20px;
     }
     .row{
         display:inline;
@@ -281,16 +303,18 @@ button:hover{
         align-items: center;
         justify-content: space-between;
     }
+    .info-1{
+        margin-left: 0%;
+    }
     .info-1 h1{
-        font-size: 40px;
+        font-size: 30px;
         display: inline-block;
         text-align: left;
         margin-bottom: -30px;
     }
     .info-1 h2{
-        display: inline-block;
         text-align: left;
-        font-size: 30px;
+        font-size: 20px;
     }
     .info-1 h3{
         display: inline-block;
@@ -311,6 +335,9 @@ button:hover{
         margin-left: 0%;
         display: inline;
         text-align: center;   
+    }
+    #about h5{
+        margin-top: -10px;
     }
     #about p{
         margin: 0%;
