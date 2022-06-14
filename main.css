@@ -235,12 +235,12 @@ button:hover{
     position: relative;
     margin-left: 50px;
     margin-top: 15%;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: #DEA54B;
 }
 #contact p{
-    font-size:20px;
+    font-size: 17px;
     color: #b9dde9;
 }
 #contact ul li{
