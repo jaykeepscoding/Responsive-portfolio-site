@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width, height= device-height initial-scale = 1.0">
     <meta name="author" content="Jabez Nuetey">
-    <script src="jquery-3.6.4.min.js"></script>
-    <link href="main.css" rel="stylesheet">
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <link href="css/main.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins:wght@100;200;300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="shortcut icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="img/apple-touch-icon.png">
     <title>Jabez Nuetey</title>
 </head>
 
@@ -26,7 +26,7 @@
     <header>
         <div class="container">
             <div class="navbar">
-                <a href="index.html"><img src="logo.png" class="logo"></a>
+                <a href="index.html"><img src="img/logo.png" class="logo"></a>
                 <nav>
                     <ul id="menuList">
                         <li><a href="#about"> <i class="uil uil-user"></i> About</a></li>
@@ -35,7 +35,7 @@
                         <li><a href="#contact"> <i class="uil uil-phone-alt"></i> Contact</a></li>
                     </ul>
                 </nav>
-                <img src="menu.png" id="menu-icon" onclick="toggleMenu()">
+                <img src="img/menu.png" id="menu-icon" onclick="toggleMenu()">
             </div>
             <div class="iconbar" style="font-size: 30px;">
                 <ul>
@@ -54,12 +54,12 @@
                 <div class="info-1">
                     <h3>Hi, my name is</h3><br>
                     <h1>Jabez T. Nuetey.</h1>
-                    <h2>Student, Software Developer, Learner.</h2><br>
-                    <a href="Jabez_Nuetey_Resume.pdf" target="_blank"> <button> Resume </button> </a>
+                    <h2>Human, Software Developer, Student.</h2><br>
+                    <a href="assets/resume.pdf" target="_blank"> <button> Resume </button> </a>
                 </div>
                 <div class="info-2">
-                    <img src="jay.jpg" class="profile-img">
-                    <img src="square.png" class="shape">
+                    <img src="img/jay.jpg" class="profile-img">
+                    <img src="img/square.png" class="shape">
                 </div>
             </div>
             <div id="about">
@@ -67,39 +67,28 @@
                 <h2>About Me</h2>
                 <br>
                 <p>
-                    Hello! My name is Jabez Nuetey(Jay). As a kid living in Ghana, West Africa, my interest in computer
-                    science grew stronger
-                    as I progressed through school. In high school, my favorite show was HBO's Silicon Valley. That show
-                    expanded my love for
-                    computer science and programming more than ever. After graduating High School, I had to make the
-                    hard decision of leaving
-                    my country to pursue computer science in the United States. This decision came with its fair share
-                    of adversaries.
-                    I overcame a lot of challenges and with perseverance, I am now in my senior year at Missouri State
-                    University.<br>
+                    Hailing from Ghana, West Africa, my journey into the world of computer science began early in my childhood. 
+                    Growing up, my fascination with technology only deepened as I progressed through school. It was during my 
+                    formative years that I discovered HBO's Silicon Valley—a show that ignited a passion for computer science 
+                    and programming unlike anything I had experienced before. Silicon Valley became more than just a TV series; 
+                    it became a source of inspiration, fueling my desire to pursue a career in technology. 
+                    However, this dream meant leaving behind everything familiar to me and embarking on a new chapter in the United States.
+                    The decision to pursue computer science abroad was not without its challenges. Yet, with unwavering determination and resilience, 
+                    I navigated through obstacles and emerged stronger than ever. 
+                    Today, I stand proud as a Software Developer, ready to contribute my skills and experiences to the ever-evolving landscape of technology.<br>
                 </p>
                 <p>
-                    As a computer science student, I have learned relevant concepts such as Object-Oriented Programming,
-                    Data Structures,
-                    Discrete Mathematics, Web Programming, Database System Concepts, Computer Networks, etc.<br>
-                </p>
-                <p>
-                    I am currently looking for new opportunities in the form of internships and full time offers as I
-                    anticipate graduation in May 2023<br>
+                    My life outside my career involves fashion - a sneakerhead I might add, photography, playing video games (mostly FIFA), and hangin out with family & friends.<br>
                 </p>
                 <br>
                 <h5>Skills</h5>
                 <ul>
                     <li>
-                        <h4>Languages & Frameworks:</h4> C++, Python, HTML, CSS, JavaScript, SQL, Kotlin
+                        <h4>Programming Languages:</h4> Python, C++, SQL, HTML, CSS, JavaScript, Apex, Kotlin
                         <hr>
                     </li>
                     <li>
-                        <h4>Software & Operating Systems:</h4> VS Code, GitHub, Windows OS, UNIX Systems
-                        <hr>
-                    </li>
-                    <li>
-                        <h4>Other:</h4> Multilingual in English, and 3 African languages (Twi, Ga, Fante)
+                        <h4>Tools & Platforms:</h4> Git, GitHub, VS Code, Google Cloud Platform Resources (BigQuery, Airflow, Cloud Run)
                         <hr>
                     </li>
                 </ul>
@@ -107,12 +96,49 @@
             <!--Experiences section-->
             <div id="experience">
                 <h2>Professional Experience</h2>
+                <h4>Integration Developer @ Keep Supply</h4>
+                <h5>May 2023 - Present</h5>
+                <ul>
+                    <li>
+                        Develop Python scripts to facilitate seamless integration, leveraging APIs to synchronize object 
+                        data and ensure data consistency across systems.
+                    </li>
+                    <li>
+                        Proactively identify opportunities for process improvement and optimization within the integration workflow, 
+                        implementing solutions to enhance efficiency, reliability, and scalability of data sync processes. 
+                    </li>
+                    <li>
+                        Collaborate within an Agile Scrum team environment to prioritize and deliver integration features and enhancements, 
+                        participating in sprint planning, daily stand-ups, and sprint reviews to meet project milestones and deadlines.
+                    </li>
+                    <li>
+                        Collaborate with cross-functional teams, including business stakeholders and technical teams, to gather requirements, 
+                        define integration workflows, and troubleshoot issues, fostering effective communication and collaboration across departments.
+                    </li>
+                </ul>
+
+                <hr>
+
+                <h4>Resident Assistant @ Missouri State University</h4>
+                <h5>January 2020 - May 2023</h5>
+                <ul>
+                    <li>
+                        Collaborated with Residence Life Association to safely move in over 4000 residents every year.
+                    </li>
+                    <li>
+                        Enforced University and Residence life policies to ensure a safe and pleasant living environment.
+                    </li>
+                    <li>
+                        Planned and facilitated over 60 mentoring meetings yearly with residents over academic and personal
+                        issues.
+                    </li>
+                </ul>
+
+                <hr>
+
                 <h4>Web Developer Intern @ City of Springfield</h4>
                 <h5>July 2022 - September 2022</h5>
                 <ul>
-                    <li>
-                        Led the design of user-friendly wireframes using UI design applications.
-                    </li>
                     <li>
                         Worked alongside city managers and department heads to translate ideas into a modern interactive
                         webpage for the Diversity, Equity,
@@ -128,22 +154,9 @@
                         and other web content used by city employees and the public.
                     </li>
                 </ul>
+
                 <hr>
-                <h4>Resident Assistant @ Missouri State University</h4>
-                <h5>January 2020 - Present</h5>
-                <ul>
-                    <li>
-                        Collaborate with Residence Life Association to safely move in over 4000 residents every year.
-                    </li>
-                    <li>
-                        Enforce University and Residence life policies to ensure a safe and pleasant living environment.
-                    </li>
-                    <li>
-                        Plan and facilitate over 60 mentoring meetings yearly with residents over academic and personal
-                        issues.
-                    </li>
-                </ul>
-                <hr>
+
                 <h4>STEM Instructor @ Discovery Center of Springfield</h4>
                 <h5>June 2021 - August 2021</h5>
                 <ul>
@@ -166,7 +179,7 @@
                 <h4>Gesture Recognition - Capstone Project</h4>
                 <ul>
                     <li>
-                        A Python project that allows users to control their mouse by hand gestures via their camera.
+                        A Python project that allows users to control their mouse using hand gestures via their camera.
                     </li>
                     <li>
                         Utilized Machine Learning (ML) solutions like Mediapipe in training ML models for our software.
@@ -208,11 +221,6 @@
             </div>
             <!--Contact section-->
             <div id="contact">
-                <h2>Contact ME </h2>
-                <p>
-                    I am currently looking for new opportunities in the form of internships and full time offers as I
-                    anticipate graduation in May 2023.
-                </p>
                 <ul>
                     <li><a href="https://linkedin.com/in/jabez-nuetey"> <i class="uil uil-linkedin-alt"></i></a></li>
                     <li><a href="https://github.com/jaykeepscoding"> <i class="uil uil-github-alt"></i></a></li>
@@ -222,7 +230,7 @@
             </div>
         </div>
     </main>
-    <script src="homepage.js"></script>
+    <script src="js/homepage.js"></script>
 </body>
 
 </html>
