@@ -174,7 +174,7 @@ nav ul li a:hover {
 }
 
 .info-1 h2 {
-    font-size: 48px;
+    font-size: 40px;
     color: #b9dde9;
 }
 
@@ -182,7 +182,7 @@ nav ul li a:hover {
     font-size: 30px;
     color: #DEA54B;
     font-weight: 100;
-    margin-bottom: -25px;
+    margin-bottom: -40px;
 }
 
 .info-1 a {
@@ -249,31 +249,23 @@ button:hover {
     margin-bottom: -15px;
 }
 
-.float-motion {
-    border-radius: 30px;
-    margin-left: -10%;
-    margin-bottom: -10%;
-    width: 40%;
-    float: left;
-}
-
 #about p {
     text-align: justify;
     margin-left: 60%;
     color: #b9dde9;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 #about ul li {
     list-style-type: none;
     color: #b9dde9;
-    font-size: 17px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 
 #about ul li h4 {
     color: #DEA54B;
-    font-size: 17px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 
@@ -291,14 +283,14 @@ button:hover {
 }
 
 #experience h5 {
-    font-size: 17px;
+    font-size: 14px;
     color: #1985A1;
     margin-top: -15px;
 }
 
 #experience ul li {
     color: #b9dde9;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 #projects {
@@ -317,12 +309,18 @@ button:hover {
 
 #projects ul li {
     color: #b9dde9;
-    font-size: 17px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 
-#projects ul li a {
+#projects ul a {
     text-decoration: none;
+    color: #1985A1;
+}
+
+#projects ul a:hover{
+    text-decoration: none;
+    color: #DEA54B;
 }
 
 #contact {
@@ -332,11 +330,6 @@ button:hover {
     font-size: 25px;
     text-align: center;
     color: #DEA54B;
-}
-
-#contact p {
-    font-size: 17px;
-    color: #b9dde9;
 }
 
 #contact ul li {
@@ -432,7 +425,7 @@ button:hover {
     }
 
     .info-1 h1 {
-        font-size: 30px;
+        font-size: 28px;
         display: inline-block;
         text-align: left;
         margin-bottom: -30px;
@@ -440,22 +433,18 @@ button:hover {
 
     .info-1 h2 {
         text-align: left;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .info-1 h3 {
         display: inline-block;
         text-align: left;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .info-2 {
         margin-top: 15%;
         margin-left: -20px;
-    }
-
-    .float-motion {
-        display: none;
     }
 
     #about {
@@ -523,10 +512,6 @@ button:hover {
         position: relative;
         margin-left: 0%;
         font-size: 20px;
-    }
-
-    #contact p {
-        font-size: 12px;
     }
 
     #contact ul li {
