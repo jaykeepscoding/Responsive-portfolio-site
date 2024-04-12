@@ -21,10 +21,9 @@
     <div class="loader-wrapper">
         <span class="loader"><span class="loader-inner"></span></span>
     </div>
-
     <!--Nav section-->
     <header>
-        <div class="container">
+        <div class="nav-container">
             <div class="navbar">
                 <a href="index.html"><img src="img/logo.png" class="logo"></a>
                 <nav>
@@ -39,139 +38,117 @@
             </div>
             <div class="iconbar" style="font-size: 30px;">
                 <ul>
-                    <li><a href="https://linkedin.com/in/jabez-nuetey" class="social-icon" target="_blank"> <i
-                                class="uil uil-linkedin-alt"></i> </a></li>
-                    <li><a href="https://github.com/jaykeepscoding" class="social-icon" target="_blank"> <i
-                                class="uil uil-github-alt"></i> </a></li>
+                    <li><a href="https://linkedin.com/in/jabez-nuetey" class="social-icon" target="_blank"> <i class="uil uil-linkedin"></i> </a></li>
+                    <li><a href="https://github.com/jaykeepscoding" class="social-icon" target="_blank"> <i class="uil uil-github"></i> </a></li>
                 </ul>
             </div>
         </div>
     </header>
     <!--About section-->
     <main>
-        <div class="container2">
-            <div class="row">
+        <div class="body-container">
+            <div class="about-intro-row">
                 <div class="info-1">
-                    <h3>Hi, my name is</h3><br>
-                    <h1>Jabez T. Nuetey.</h1>
+                    <h3>Hi, my name is</h3>
+                    <h1>Jabez T. Nuetey</h1>
                     <h2>Human. Software Developer. Student.</h2><br>
-                    <a href="assets/resume.pdf" target="_blank"> <button> Resume </button> </a>
+                    <a href="assets/resume.pdf" target="_blank"> View Full Résumé -> </button> </a>
                 </div>
                 <div class="info-2">
                     <img src="img/jay.jpg" class="profile-img">
                     <img src="img/square.png" class="shape">
                 </div>
             </div>
-            <div id="about">
-                <h2>About Me</h2>
-                <br>
-                <p>
-                    Originally from Ghana, West Africa, my journey into computer science began in my childhood. Growing up, my fascination with technology only deepened as I progressed through school. 
-                    Discovering HBO's Silicon Valley during my formative years ignited a passion for computer science and programming that shaped my career trajectory. 
-                    This led me to pursue my dreams in the United States, despite leaving behind the familiar. 
-                    Overcoming challenges with determination and resilience, I emerged stronger, now proud to be a Software Developer contributing to the dynamic field of technology. 
-                    <br>
-                </p>
-                <p>
-                    Beyond my career, I enjoy exploring fashion, photography, playing video games like FIFA, and spending time with loved ones.
-                    <br>
-                </p>
-                <br>
-                <h5>Skills</h5>
-                <ul>
-                    <li>
-                        <h4>Programming Languages:</h4> Python, C++, SQL, HTML, CSS, JavaScript, Apex, Kotlin
-                        <hr>
-                    </li>
-                    <li>
-                        <h4>Tools & Platforms:</h4> Git, GitHub, VS Code, Salesforce, Google Cloud Platform Resources (BigQuery, Airflow, Cloud Run)
-                        <hr>
-                    </li>
-                </ul>
+            <div class="about-container">
+                <div class="about-left-column">
+                    <div id="about">
+                        <div class="logos-grid">
+                            <img class="software-logo" src="img/python.png" title="python" alt="python">
+                            <img class="software-logo" src="img/html5.png" title="html" alt="html">
+                            <img class="software-logo" src="img/css3.png" title="css" alt="css">
+                            <img class="software-logo" src="img/javascript.png" title="javascript" alt="javascript">
+                            <img class="software-logo" src="img/cplusplus.png" title="c++" alt="cpp">
+                            <img class="software-logo" src="img/kotlin.png" title="kotlin" alt="kotlin">
+                            <img class="software-logo" src="img/vscode.png" title="vscode" alt="vscode">
+                            <img class="software-logo" src="img/git.png" title="git" alt="git">
+                            <img class="software-logo" src="img/github.png" title="github" alt="github">
+                            <img class="software-logo" src="img/linux.png" title="linux" alt="linux">
+                            <img class="software-logo" src="img/postman.png" title="postman" alt="postman">
+                            <img class="software-logo" src="img/apacheairlfow.png" title="apacheairflow" alt="airflow">
+                            <img class="software-logo" src="img/bigquery.png" title="bigquery" alt="bigquery">
+                            <img class="software-logo" src="img/googlecloud.png" title="googlecloud" alt="googlecloud">
+                            <img class="software-logo" src="img/godot.png" title="godot" alt="godot">
+                            <img class="software-logo" src="img/photoshop.png" title="photoshop" alt="photoshop">
+                            <img class="software-logo" src="img/lightroom.png" title="lightroom" alt="lightroom">
+                            <img class="software-logo" src="img/figma.png" title="figma" alt="figma">                           
+                            <!-- Add more images for other tools -->
+                        </div>
+                    </div>
+                </div>    
+                <div class="about-right-column">
+                    <div id="about">
+                        <p>
+                            Originally from Ghana, West Africa, my journey into computer science began in my childhood. Growing up, my fascination with technology only deepened as I progressed through school. 
+                            Discovering HBO's Silicon Valley during my formative years ignited a passion for computer science and programming that shaped my career trajectory. 
+                            This led me to pursue my dreams in the United States, despite leaving behind the familiar. 
+                            Overcoming challenges with determination and resilience, I emerged stronger, now proud to be a Software Developer contributing to the dynamic field of technology. 
+                            <br>
+                            <br>
+                            Beyond my career, I enjoy exploring fashion, photography, playing video games like FIFA, and spending time with loved ones.
+                        </p>
+                        <br>
+                    </div>
+                </div>                
             </div>
             <!--Experiences section-->
             <div id="experience">
                 <h2>Professional Experience</h2>
-                <h4>Integration Developer @ Keep Supply</h4>
+                <h4>Integration Developer · Keep Supply</h4>
                 <h5>May 2023 - Present</h5>
-                <ul>
-                    <li>
-                        Develop Python scripts to facilitate seamless integration, leveraging APIs to synchronize object 
-                        data and ensure data consistency across systems.
-                    </li>
-                    <li>
-                        Proactively identify opportunities for process improvement and optimization within the integration workflow, 
-                        implementing solutions to enhance efficiency, reliability, and scalability of data sync processes. 
-                    </li>
-                    <li>
-                        Collaborate within an Agile Scrum team environment to prioritize and deliver integration features and enhancements, 
-                        participating in sprint planning, daily stand-ups, and sprint reviews to meet project milestones and deadlines.
-                    </li>
-                    <li>
-                        Collaborate with cross-functional teams, including business stakeholders and technical teams, to gather requirements, 
-                        define integration workflows, and troubleshoot issues, fostering effective communication and collaboration across departments.
-                    </li>
-                </ul>
+                <p>
+                    Build Python scripts for seamless integration, utilizing APIs to synchronize data across systems. 
+                    I optimize workflows for efficiency and scalability, collaborating in an Agile team to deliver features on time. 
+                    I also liaise with stakeholders to gather requirements and troubleshoot issues, fostering effective communication and collaboration across departments.
+                </p>
+                <div class="tools-grid">
+                    <span class="tool-button">Python</span>
+                    <span class="tool-button">SQL</span>
+                    <span class="tool-button">Apex</span>
+                    <span class="tool-button">Google Cloud</span>
+                    <span class="tool-button">Salesforce</span>
+                </div>
 
                 <hr>
 
-                <h4>Resident Assistant @ Missouri State University</h4>
+                <h4>Resident Assistant · Missouri State University</h4>
                 <h5>January 2020 - May 2023</h5>
-                <ul>
-                    <li>
-                        Collaborated with Residence Life Association to safely move in over 4000 residents every year.
-                    </li>
-                    <li>
-                        Enforced University and Residence life policies to ensure a safe and pleasant living environment.
-                    </li>
-                    <li>
-                        Planned and facilitated over 60 mentoring meetings yearly with residents over academic and personal
-                        issues.
-                    </li>
-                </ul>
-
+                <p>
+                    Collaborated with the Residence Life Association to safely move in over 4000 residents annually, 
+                    enforced University and Residence Life policies to maintain a safe living environment, and 
+                    conducted over 60 mentoring meetings per year addressing academic and personal concerns.
+                </p>
+                
                 <hr>
 
-                <h4>Web Developer Intern @ City of Springfield</h4>
+                <h4>Web Developer Intern · City of Springfield</h4>
                 <h5>July 2022 - September 2022</h5>
-                <ul>
-                    <li>
-                        Worked alongside city managers and department heads to translate ideas into a modern interactive
-                        webpage for the Diversity, Equity,
-                        and Inclusion (DEI) department.
-                    </li>
-                    <li>
-                        Designed and implemented the frontend and backend components of the Diversity, Equity, and
-                        Inclusion department website
-                        that is exposed to 1500+ City employees.
-                    </li>
-                    <li>
-                        Collaborated with City Commissions and the Public Information Office to modify existing forms
-                        and other web content used by city employees and the public.
-                    </li>
-                </ul>
-
+                <p>
+                    Collaborated with city managers and department heads to design and develop a modern, interactive webpage for the Diversity, Equity, and Inclusion (DEI) 
+                    department.
+                </p>
+                
                 <hr>
 
-                <h4>STEM Instructor @ Discovery Center of Springfield</h4>
+                <h4>STEM Instructor · Discovery Center of Springfield</h4>
                 <h5>June 2021 - August 2021</h5>
-                <ul>
-                    <li>
-                        Instructed approximately 150 students on basic STEM concepts in the areas of computer science,
-                        physics, mathematics, and biology.
-                    </li>
-                    <li>
-                        Provided suitable learning conditions for students who attended the “Summer of Science” program,
-                        leading to a 90% retention rate.
-                    </li>
-                    <li>
-                        Exhibited strong communication skills with supervisors and colleagues to meet weekly goals.
-                    </li>
-                </ul>
+                <p>
+                    Taught approximately 150 students basic concepts in computer science, physics, mathematics, and biology while
+                    ensuring suitable learning conditions for the 'Summer of Science' program.
+                </p>
             </div>
             <!--Projects section-->
             <div id="projects">
-                <h2>Projects</h2>
+                <h2>Selected Projects</h2>
                 <h4>Gesture Recognition - Capstone Project</h4>
                 <ul>
                     <li>
@@ -186,7 +163,7 @@
                     <li>
                         Core Language: Python
                     </li>
-                    <a href="https://github.com/jaykeepscoding/Gesture-Recognition"> <i class="uil uil-github-alt"></i></a>
+                    <a href="https://github.com/jaykeepscoding/Gesture-Recognition"> <i class="uil uil-github"></i></a>
                 </ul>
                 <h4>WorldFoodz</h4>
                 <ul>
@@ -200,7 +177,7 @@
                     <li>
                         Core Language: Kotlin
                     </li>
-                    <a href="https://github.com/jaykeepscoding/Foodzilla"> <i class="uil uil-github-alt"></i></a>
+                    <a href="https://github.com/jaykeepscoding/Foodzilla"> <i class="uil uil-github"></i></a>
                 </ul>
                 <h4>Banking System</h4>
                 <ul>
@@ -214,16 +191,17 @@
                     <li>
                         Core Language: C++
                     </li>
-                    <a href="https://github.com/jaykeepscoding/FInal-Project"> <i class="uil uil-github-alt"></i></a>
+                    <a href="https://github.com/jaykeepscoding/FInal-Project"> <i class="uil uil-github"></i></a>
                 </ul>
             </div>
             <!--Contact section-->
             <div id="contact">
                 <ul>
-                    <li><a href="https://linkedin.com/in/jabez-nuetey"> <i class="uil uil-linkedin-alt"></i></a></li>
-                    <li><a href="https://github.com/jaykeepscoding"> <i class="uil uil-github-alt"></i></a></li>
-                    <li><a href="mailto:jabez9119@missouristate.edu"> <i class="uil uil-envelope-alt"></i></a></li>
+                    <li><a href="https://linkedin.com/in/jabez-nuetey"> <i class="uil uil-linkedin"></i></a></li>
+                    <li><a href="https://github.com/jaykeepscoding"> <i class="uil uil-github"></i></a></li>
+                    <li><a href="mailto:nuetjay@gmail.com"> <i class="uil uil-envelope"></i></a></li>
                 </ul>
+                <p>Loosely designed in figma and coded in Visual Studio Code by Jabez Nuetey</p>
                 <h6>&copy 2022 Jabez Nuetey</h6>
             </div>
         </div>
