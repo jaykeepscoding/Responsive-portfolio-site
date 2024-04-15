@@ -316,10 +316,15 @@ button:hover {
     font-size: 14px;
 }
 
+.right-section {
+    position: relative;
+    left: 50%;
+}
+
 #projects {
-    width: 50%;
     position: relative;
     margin-left: 50px;
+    width: 50%;
     margin-top: 5%;
     font-size: 25px;
     color: #DEA54B;
@@ -328,21 +333,19 @@ button:hover {
 #projects h4 {
     font-size: 20px;
     color: #1985A1;
-    margin-bottom: -15px;
 }
 
-#projects ul li {
-    color: #b9dde9;
+#projects p{
     font-size: 14px;
-    margin-bottom: 10px;
+    color: #b9dde9;
 }
 
-#projects ul a {
+#projects a {
     text-decoration: none;
     color: #1985A1;
 }
 
-#projects ul a:hover{
+#projects a:hover{
     text-decoration: none;
     color: #DEA54B;
 }
@@ -476,6 +479,15 @@ button:hover {
         margin-left: -20px;
     }
 
+    .info-2 .profile-img {
+        margin-left: 0%;
+        width: 80%;
+    }
+
+    .about-container {
+        flex-direction: column;
+        margin-left: 0px;
+    }
     #about {
         font-size: 20px;
     }
@@ -508,6 +520,7 @@ button:hover {
     #experience {
         position: relative;
         margin-left: 0%;
+        width: 100%;
         font-size: 20px;
     }
 
@@ -526,9 +539,13 @@ button:hover {
     #projects {
         position: relative;
         margin-left: 0%;
+        width: 100%;
         font-size: 20px;
     }
-
+    .right-section {
+        position: relative;
+        left: 0%;
+    }
     #projects h4 {
         font-size: 15px;
     }
