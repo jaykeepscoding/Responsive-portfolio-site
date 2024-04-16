@@ -64,7 +64,12 @@
     }
 }
 
-.container {
+header {
+    position: relative;
+    top: -200px;
+}
+
+.nav-container {
     width: 100%;
     padding-left: 8%;
     padding-right: 8%;
@@ -79,11 +84,9 @@
     align-items: center;
 }
 
-.logo {
+.site-logo {
     width: 80px;
-    margin: 30px;
-    margin-bottom: -10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #menu-icon {
@@ -102,7 +105,6 @@ nav ul li {
     display: inline-block;
     margin-right: 30px;
     font-family: sans-serif;
-    font-weight: bold;
 }
 
 nav ul li a {
@@ -114,37 +116,20 @@ nav ul li a:hover {
     color: #DEA54B;
 }
 
-.iconbar {
-    width: 5%;
-}
-
-.iconbar ul {
-    display: flex;
+body {
+    justify-content: center;
     align-items: center;
+    margin: 200px;
 }
 
-.iconbar ul li {
-    list-style-type: none;
-    margin-right: 20px;
-}
-
-.iconbar ul li a:hover {
-    color: #DEA54B;
-}
-
-.social-icon {
-    color: rgb(82, 79, 79);
-    width: 50px;
-}
-
-.row {
+.about-intro-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
 }
 
-.container2 {
+.body-container {
     width: 100%;
     padding-left: 8%;
     padding-right: 8%;
@@ -156,59 +141,49 @@ nav ul li a:hover {
 .info-1 {
     flex-basis: 80%;
     position: relative;
-    margin-left: 50px;
-}
-
-.info-1::before {
-    content: '';
-    width: 70%;
-    height: 3px;
-    background-color: #1985A1;
-    position: absolute;
 }
 
 .info-1 h1 {
-    font-size: 54px;
+    font-size: 60px;
     color: #1985A1;
     margin-bottom: -30px;
 }
 
 .info-1 h2 {
-    font-size: 48px;
+    font-size: 30px;
     color: #b9dde9;
 }
 
-.info-1 h3 {
+.social-iconrow {
     font-size: 30px;
+    margin-left: -40px;
+}
+
+.social-iconrow ul {
+    display: flex;
+    align-items: center;
+}
+
+.social-iconrow ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.social-iconrow ul li a {
+    color: rgb(82, 79, 79);
+}
+
+.social-iconrow ul li a:hover {
     color: #DEA54B;
-    font-weight: 100;
-    margin-bottom: -25px;
 }
 
 .info-1 a {
     text-decoration: none;
+    color: #b9dde9;
 }
 
-button {
-    width: 100px;
-    border: 0;
-    padding: 7px 5px;
-    outline: none;
-    color: #080808;
-    background: linear-gradient(to right, #ecb050, #D99830);
-    border-radius: 7px;
-    cursor: pointer;
-    transition: 0.5s;
-    font-size: 15px;
-    font-family: 'Cinzel', 'serif';
-    font-weight: bold;
-}
-
-button:hover {
-    width: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.info-1 a:hover {
+    color: #DEA54B;
 }
 
 .info-2 {
@@ -232,57 +207,71 @@ button:hover {
     z-index: -1;
 }
 
+.about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-left-column, .about-right-column {
+    flex: 1;
+}
+
 #about {
+    text-align: center;
     position: relative;
     margin-top: 10%;
     font-size: 25px;
     color: #DEA54B;
 }
 
-#about h2 {
-    text-align: center;
-    margin-left: 60%;
-    margin-bottom: -15px;
-}
-
-#about h5 {
-    margin-bottom: -15px;
-}
-
-.float-motion {
-    border-radius: 30px;
-    margin-left: -10%;
-    margin-bottom: -10%;
-    width: 40%;
-    float: left;
-}
-
 #about p {
+    color: #b9dde9;
+    font-size: 14px;
     text-align: justify;
-    margin-left: 60%;
-    color: #b9dde9;
-    font-size: 17px;
+    margin-top: 80px;
+    margin-left: 50px;
 }
 
-#about ul li {
-    list-style-type: none;
-    color: #b9dde9;
-    font-size: 17px;
-    margin-bottom: 10px;
-}
+.logos-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
 
-#about ul li h4 {
-    color: #DEA54B;
-    font-size: 17px;
-    margin-bottom: 10px;
-}
+  .software-logo {
+    margin-top: 20px;
+    width: 50%;
+    height:auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+
+  .software-logo:hover {
+    filter: grayscale(0%);
+  }
 
 #experience {
     position: relative;
-    margin-left: 50px;
+    width: 50%;
     margin-top: 5%;
     font-size: 25px;
     color: #DEA54B;
+}
+
+.tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tool-button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #142A3C;
+    color: #56DAD5;
+    border: none;
+    border-radius: 20px;
+    font-size: 10px;
 }
 
 #experience h4 {
@@ -290,20 +279,29 @@ button:hover {
     color: #1985A1;
 }
 
+#experience p{
+    font-size: 14px;
+    color: #b9dde9;
+}
+
 #experience h5 {
-    font-size: 17px;
-    color: #1985A1;
+    font-size: 14px;
+    color: #768488;
     margin-top: -15px;
 }
 
 #experience ul li {
     color: #b9dde9;
-    font-size: 17px;
+    font-size: 14px;
+}
+
+.right-section {
+    position: relative;
+    left: 50%;
 }
 
 #projects {
-    position: relative;
-    margin-left: 50px;
+    width: 50%;
     margin-top: 5%;
     font-size: 25px;
     color: #DEA54B;
@@ -312,17 +310,21 @@ button:hover {
 #projects h4 {
     font-size: 20px;
     color: #1985A1;
-    margin-bottom: -15px;
 }
 
-#projects ul li {
+#projects p{
+    font-size: 14px;
     color: #b9dde9;
-    font-size: 17px;
-    margin-bottom: 10px;
 }
 
-#projects ul li a {
+#projects a {
     text-decoration: none;
+    color: #1985A1;
+}
+
+#projects a:hover{
+    text-decoration: none;
+    color: #DEA54B;
 }
 
 #contact {
@@ -332,11 +334,6 @@ button:hover {
     font-size: 25px;
     text-align: center;
     color: #DEA54B;
-}
-
-#contact p {
-    font-size: 17px;
-    color: #b9dde9;
 }
 
 #contact ul li {
@@ -356,11 +353,23 @@ button:hover {
 }
 
 #contact h6 {
+    color: #768488;
     font-size: 15px;
 }
 
+#contact p {
+    font-size: 9px;
+    margin-bottom: -15px;
+}
+
 @media (max-width: 900px) {
-    .container {
+
+    header {
+        position: relative;
+        top: -10px;
+    }
+
+    .nav-container {
         padding-left: 2%;
         padding-right: 2%;
     }
@@ -376,9 +385,11 @@ button:hover {
     }
 
     nav ul li {
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        color: #DEA54B;
     }
 
     #menuList {
@@ -390,49 +401,29 @@ button:hover {
         display: block;
     }
 
-    .logo {
+    .site-logo {
         width: 60px;
         margin: 30px;
-        margin-bottom: -10px;
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
-    .iconbar ul {
+    body {
+        margin: 20px;
+    }
+
+    .social-iconrow ul {
         display: flex;
         align-items: center;
     }
 
-    .iconbar ul li {
-        margin-right: 20px;
-    }
-
-    .row {
+    .about-intro-row {
         display: inline;
         justify-content: space-between;
         align-items: center;
     }
 
-    button {
-        width: 80px;
-        padding: 7px 5px;
-        font-size: 10px;
-        font-family: 'Cinzel', 'serif';
-        font-weight: bold;
-    }
-
-    button:hover {
-        width: 80px;
-        display: inline-block;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .info-1 {
-        margin-left: 0%;
-    }
-
     .info-1 h1 {
-        font-size: 30px;
+        font-size: 28px;
         display: inline-block;
         text-align: left;
         margin-bottom: -30px;
@@ -440,22 +431,21 @@ button:hover {
 
     .info-1 h2 {
         text-align: left;
-        font-size: 20px;
-    }
-
-    .info-1 h3 {
-        display: inline-block;
-        text-align: left;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .info-2 {
         margin-top: 15%;
-        margin-left: -20px;
     }
 
-    .float-motion {
-        display: none;
+    .info-2 .profile-img {
+        margin-left: 0%;
+        width: 80%;
+    }
+    
+    .about-container {
+        flex-direction: column;
+        margin-left: 0px;
     }
 
     #about {
@@ -490,6 +480,7 @@ button:hover {
     #experience {
         position: relative;
         margin-left: 0%;
+        width: 100%;
         font-size: 20px;
     }
 
@@ -503,14 +494,20 @@ button:hover {
 
     #experience ul li {
         font-size: 12px;
+    
+    }
+    .right-section {
+        margin-right: 0%;
+        left: 0%;
     }
 
     #projects {
         position: relative;
         margin-left: 0%;
+        width: 100%;
         font-size: 20px;
     }
-
+    
     #projects h4 {
         font-size: 15px;
     }
@@ -523,10 +520,6 @@ button:hover {
         position: relative;
         margin-left: 0%;
         font-size: 20px;
-    }
-
-    #contact p {
-        font-size: 12px;
     }
 
     #contact ul li {
