@@ -138,18 +138,18 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.info-1 {
+.intro-words {
     flex-basis: 80%;
     position: relative;
 }
 
-.info-1 h1 {
+.intro-words h1 {
     font-size: 60px;
     color: #1985A1;
     margin-bottom: -30px;
 }
 
-.info-1 h2 {
+.intro-words h2 {
     font-size: 30px;
     color: #b9dde9;
 }
@@ -177,23 +177,30 @@ body {
     color: #DEA54B;
 }
 
-.info-1 a {
+.resume a {
     text-decoration: none;
     color: #b9dde9;
 }
 
-.info-1 a:hover {
+.resume a:hover span{
+    display: none;
+    /* content: " View Full Résumé ->";
+    color: #DEA54B; */
+}
+
+.resume a:hover::before{
+    content: " \2192  View Full Résumé";
     color: #DEA54B;
 }
 
-.info-2 {
+.intro-image {
     position: relative;
     flex-basis: 60%;
     display: flex;
     align-items: center;
 }
 
-.info-2 .profile-img {
+.intro-image .profile-img {
     margin-left: 20%;
     width: 70%;
     float: right;
@@ -422,23 +429,23 @@ body {
         align-items: center;
     }
 
-    .info-1 h1 {
+    .intro-words h1 {
         font-size: 28px;
         display: inline-block;
         text-align: left;
         margin-bottom: -30px;
     }
 
-    .info-1 h2 {
+    .intro-words h2 {
         text-align: left;
         font-size: 18px;
     }
 
-    .info-2 {
+    .intro-image {
         margin-top: 15%;
     }
 
-    .info-2 .profile-img {
+    .intro-image .profile-img {
         margin-left: 0%;
         width: 80%;
     }
