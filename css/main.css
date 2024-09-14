@@ -214,12 +214,12 @@ body {
     z-index: -1;
 }
 
-.about-container {
+.split-container {
     display: flex;
     flex-direction: row;
 }
 
-.about-left-column, .about-right-column {
+.left-column, .right-column {
     flex: 1;
 }
 
@@ -259,7 +259,7 @@ body {
 
 #experience {
     position: relative;
-    width: 50%;
+    width: 90%;
     margin-top: 5%;
     font-size: 25px;
     color: #DEA54B;
@@ -302,13 +302,7 @@ body {
     font-size: 14px;
 }
 
-.right-section {
-    position: relative;
-    left: 50%;
-}
-
 #projects {
-    width: 50%;
     margin-top: 5%;
     font-size: 25px;
     color: #DEA54B;
@@ -450,7 +444,7 @@ body {
         width: 80%;
     }
     
-    .about-container {
+    .split-container {
         flex-direction: column;
         margin-left: 0px;
     }
